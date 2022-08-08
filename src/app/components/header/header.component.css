@@ -1,0 +1,28 @@
+.header-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:20px;
+    position: absolute;
+    top: 0;
+    width: calc(100vw - 40px);
+    color: white;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+.menu-items{
+    padding: 5px 10px;
+}
+.logoBlock{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+}
+.logoBlock div{
+    padding-left: 10px;
+    text-align: center;
+    padding-top: 7px;
+}

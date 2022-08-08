@@ -1,0 +1,89 @@
+<div class="homePage">
+    <div class="banner mainBanner" style="padding: 175px 0px 100px;">
+        <div class="heading" style="margin-top: 20px;">Self Storage Business</div>
+        <div class="heading" style="margin-top: -20px;">Buy. Sell. Learn.</div>
+        <div class="description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit sagittis, aliquam non tortor blandit lobortis. blandit 
+        </div>
+        <div class="buttonRow">
+            <div class="button yellow-button">Sell Your Storage</div>
+            <div class="button white-button">Active Self Storage Listings</div>
+        </div>
+    </div>
+
+    <div class="banner">
+        <div class="headingSmall">Featured Self Storages</div>
+        <div class="description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tortor sapien sagittis maecenas tincidunt. Quis pretium ornare 
+        </div>
+
+        <div class="widgetsBlock">
+            <div *ngFor="let item of data">
+                <app-storage-description-widget></app-storage-description-widget>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="banner blueBanner">
+        <div class="headingSmall">Active Listings Self Storages</div>
+        <div class="description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tortor sapien sagittis maecenas tincidunt. Quis pretium ornare 
+        </div>
+
+        <div class="widgetsBlock">
+            <div *ngFor="let item of fullData.slice(0,6)">
+                <app-storage-description-widget></app-storage-description-widget>
+            </div>
+        </div>
+
+        <div class="button yellow-button">View More Listings</div>
+
+    </div>
+
+    <div class="banner lightBlueBanner twoCols">
+        <div>
+            <img src="/../../assets/people/lady.png" class="droppedImage"/>
+        </div>
+        <div>
+            <div class="headingSmall">Do you have a Self Storage for Sale?</div>
+            <div class="description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tortor sapien sagittis maecenas tincidunt. Quis pretium ornare 
+            </div>
+            <div class="button blue-button">Sell Your Self Storage</div>
+        </div>
+    </div>
+
+    <div class="banner twoCols">
+        <div>
+            <div class="headingSmall">Do you have a Self Storage for Sale?</div>
+            <div class="description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tortor sapien sagittis maecenas tincidunt. Quis pretium ornare 
+            </div>
+            <div class="button blue-button">Sell Your Self Storage</div>
+        </div>
+        <div>
+            <img src="/../../assets/people/lady.png" class="droppedImage" />
+        </div>
+    </div>
+
+    <div class="banner blueBanner" style ="border-top-left-radius: 250px;">
+        <div class="headingSmall">Learn Everything About Buying, Selling, and Operating a Self Storage</div>
+        <div class="description">
+            Learn about literally anything to know about Selling or Buying a Self Storage
+        </div>
+
+        <div class="widgetsBlock">
+            <div *ngFor="let item of fullData.slice(0,4)">
+                <app-storage-description-widget></app-storage-description-widget>
+            </div>
+        </div>
+
+        <div class="button yellow-button">View More Listings</div>
+
+    </div>
+
+</div>
+
+<app-header></app-header>
+<app-footer></app-footer>

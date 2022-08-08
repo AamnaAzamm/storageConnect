@@ -1,0 +1,111 @@
+.yellow-button{
+    background-color: #FFBE0B;
+    color: black;
+}
+.white-button{
+    background-color: #FFF;    
+    color: black;
+}
+.blue-button{
+    background-color: #1849C6;    
+    color: white;
+}
+.yellow-button:hover{
+    background-color: #FFF;
+}
+.white-button:hover{
+    background-color: #FFBE0B;    
+}
+.blue-button:hover{
+    background-color: #FFBE0B;
+}
+.button{
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+    font-size: 13px;
+    height: fit-content;
+}
+.heading{
+    font-size: 55px;
+    font-weight: bold;
+}
+.headingSmall{
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 30px;
+}
+.description{
+    width: 530px;
+    text-align: center;
+    font-size: 17px;
+    padding-bottom: 50px;
+}
+.banner{
+    font-family: 'Poppins';
+    width: 100vw;
+    min-height: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    padding: 25px 0px 50px;
+    align-items: center;
+}
+.blueBanner{
+    background-color: #1849C6;
+    color: white;
+}
+.lightBlueBanner{
+    background-color: #E8EFFF;
+    color: white;
+    border-bottom-right-radius: 250px;
+}
+.mainBanner{
+    background-image: url("/../../assets/backgrounds/Item1.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.absoluteTop{
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.buttonRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 450px;
+    padding: 0px 50px;
+}
+.buttonRow div{
+    width: 40%;
+}
+
+.widgetsBlock{
+    display: flex;
+    flex-direction: row;
+    max-width: 1140px;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: black;
+    padding-bottom: 40px;
+}
+.widgetsBlock div{
+    flex: 0 0 33.33%;
+    margin: 20px;
+    max-width: 300px;
+}
+
+.twoCols{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0px;
+}
+
+.droppedImage{
+    margin-bottom: -10px;
+}

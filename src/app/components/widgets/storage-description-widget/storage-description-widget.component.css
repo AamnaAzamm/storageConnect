@@ -1,0 +1,50 @@
+.widgetBg{
+    background-color: #F6F8FD;
+    padding: 10px;
+    border-radius: 10px;
+    flex: 30%;
+}
+.widgetBg img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.widgetDetails{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.widgetDetails div{
+    width: 50%;
+    padding: 2px 0;
+}
+.widgetDetails div span{
+    font-weight: bold;
+}
+
+.widgetHeading{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.blue-button{
+    background-color: #1849C6;    
+    color: white;
+}
+.blue-button:hover{
+    background-color: #FFBE0B;
+}
+.button{
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+    font-size: 13px;
+    height: fit-content;
+    width: 200px;
+    margin: 10px auto;
+}
