@@ -1,21 +1,39 @@
 <div class="widgetBg">
-    <img src="/../../../../assets/storages/Item2.png"/>
-    <div class="widgetHeading">
-        Heading of this Self Storage
+    <img src={{storageObject.image}}/>
+    <div *ngIf="!makeLocationHeading" class="widgetHeading">
+        {{storageObject.title}}
+    </div>
+    <div class="iconDesc" *ngIf="makeLocationHeading" [ngClass]="{'widgetHeading' : makeLocationHeading}" >
+        <span class="icon">
+            <img src="../../../assets/icons/location.svg" alt="icon"/>
+        </span>
+        <span>{{storageObject.location}}</span>
     </div>
 
     <div class="widgetDetails">
-        <div>
-            Jersey City, NJ
+        <div class="iconDesc" *ngIf="!makeLocationHeading" >
+            <span class="icon">
+                <img src="../../../assets/icons/location.svg" alt="icon"/>
+            </span>
+            <span>{{storageObject.location}}</span>
         </div>
-        <div>
-            <span>Total Unit: </span>89
+        <div class="iconDesc">
+            <span class="icon">
+                <img src="../../../assets/icons/units.svg" alt="icon"/>
+            </span>
+            <span><span>Total Unit: </span>{{storageObject.units}}</span>
         </div>
-        <div>
-            <span>Size: </span>40233 Sq Ft
+        <div class="iconDesc">
+            <span class="icon">
+                <img src="../../../assets/icons/size.svg" alt="icon"/>
+            </span>
+            <span><span>Size: </span>{{storageObject.size}} Sq Ft</span>
         </div>
-        <div>
-            <span>Occupancy: </span>50%
+        <div class="iconDesc">
+            <span class="icon">
+                <img src="../../../assets/icons/occupancy.svg" alt="icon"/>
+            </span>
+            <span><span>Occupancy: </span>{{storageObject.occupancy}}%</span>
         </div>
     </div>
 

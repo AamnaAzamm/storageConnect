@@ -4,4 +4,5 @@ export interface Home {
     units: number;
     occupancy: number;
     size: number;
+    image: string;
 }

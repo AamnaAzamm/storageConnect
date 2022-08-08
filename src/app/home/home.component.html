@@ -18,8 +18,8 @@
         </div>
 
         <div class="widgetsBlock">
-            <div *ngFor="let item of data">
-                <app-storage-description-widget></app-storage-description-widget>
+            <div *ngFor="let item of data.slice(0,3)">
+                <app-storage-description-widget [storageObject]="item"></app-storage-description-widget>
             </div>
         </div>
 
@@ -32,8 +32,8 @@
         </div>
 
         <div class="widgetsBlock">
-            <div *ngFor="let item of fullData.slice(0,6)">
-                <app-storage-description-widget></app-storage-description-widget>
+            <div *ngFor="let item of data.slice(0,6)">
+                <app-storage-description-widget [storageObject]="item"></app-storage-description-widget>
             </div>
         </div>
 
@@ -73,13 +73,13 @@
             Learn about literally anything to know about Selling or Buying a Self Storage
         </div>
 
-        <div class="widgetsBlock">
-            <div *ngFor="let item of fullData.slice(0,4)">
-                <app-storage-description-widget></app-storage-description-widget>
+        <div class="widgetsBlockSize4">
+            <div *ngFor="let item of data.slice(0,4)">
+                <app-storage-description-widget [storageObject]="item"></app-storage-description-widget>
             </div>
         </div>
 
-        <div class="button yellow-button">View More Listings</div>
+        <div class="button yellow-button">Explore the Learning Section</div>
 
     </div>
 

@@ -16,13 +16,11 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    font-size: 12px;
 }
 .widgetDetails div{
     width: 50%;
     padding: 2px 0;
-}
-.widgetDetails div span{
-    font-weight: bold;
 }
 
 .widgetHeading{
@@ -47,4 +45,18 @@
     height: fit-content;
     width: 200px;
     margin: 10px auto;
+}
+.iconDesc{
+    display: inline-flex;
+    padding-bottom: 5px !important;
+}
+.icon{
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    padding: 1px 3px;
+}
+.icon img{
+    width: 100%;
+    height: 100%;
 }

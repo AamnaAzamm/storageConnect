@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-
+import { Component, OnInit, Input } from '@angular/core';
 @Component({
   selector: 'app-storage-description-widget',
   templateUrl: './storage-description-widget.component.html',
@@ -7,9 +6,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StorageDescriptionWidgetComponent implements OnInit {
 
+  @Input ()
+  storageObject: any;
+  
+  public makeLocationHeading = false;
   constructor() { }
 
   ngOnInit(): void {
+    if(this.storageObject.title == ""){
+      this.makeLocationHeading = true;
+    }
   }
 
 }

@@ -9,8 +9,8 @@ import { HttpClient } from '@angular/common/http';
 })
 export class HomeComponent implements OnInit {
 
-  public data;
-  public fullData;
+  public data : any = [];
+  public fullData : any = [];
 
   home: Home = {
     id: 1,
@@ -22,7 +22,7 @@ export class HomeComponent implements OnInit {
   ngOnInit(){
     this.http.get('http://localhost:4200/storages').subscribe(data => {
       this.fullData = data;
-      this.data = data.slice(0,3);
+      this.data = data;
     });
   }
 
