@@ -1,0 +1,68 @@
+{
+    "storages" : [
+        {
+            "title": "",
+            "location": "Jersey City, NJ",
+            "units": "89",
+            "occupancy": "63",
+            "size": "40233",
+            "image": "/../../../../assets/storages/image1.png"
+        },
+        {
+            "title": "Heading of this Self Storage",
+            "location": "Jersey City, NJ",
+            "units": "103",
+            "occupancy": "76",
+            "size": "40233",
+            "image": "/../../../../assets/storages/image2.png"
+        },        
+        {
+            "title": "Heading",
+            "location": "Jersey City, NJ",
+            "units": "16",
+            "occupancy": "88",
+            "size": "40233",
+            "image": "/../../../../assets/storages/image3.png"
+        },        
+        {
+            "title": "Self Storage",
+            "location": "Jersey City, NJ",
+            "units": "34",
+            "occupancy": "67",
+            "size": "40233",
+            "image": "/../../../../assets/storages/image4.png"
+        },
+        {
+            "title": "This Self Storage",
+            "location": "Jersey City, NJ",
+            "units": "58",
+            "occupancy": "71",
+            "size": "40233",
+            "image": "/../../../../assets/storages/image5.png"
+        },        
+        {
+            "title": "Heading of this",
+            "location": "Jersey City, NJ",
+            "units": "43",
+            "occupancy": "52",
+            "size": "40233",
+            "image": "/../../../../assets/storages/image6.png"
+        },        
+        {
+            "title": "Heading of this Self Storage",
+            "location": "Jersey City, NJ",
+            "units": "112",
+            "occupancy": "50",
+            "size": "40233",
+            "image": "/../../../../assets/storages/image7.png"
+        },
+        {
+            "title": "Heading",
+            "location": "Jersey City, NJ",
+            "units": "72",
+            "occupancy": "13",
+            "size": "40233",
+            "image": "/../../../../assets/storages/image8.png"
+        }
+    ]
+}
