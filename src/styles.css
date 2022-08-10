@@ -5,3 +5,10 @@ body{
     font-family: 'Poppins';
     overflow-x: hidden;
 }
+
+.mainBanner{
+    background-image: url("assets/backgrounds/Item1.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}

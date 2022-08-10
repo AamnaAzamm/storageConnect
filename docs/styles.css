@@ -3,4 +3,11 @@ body{
     margin: 0px !important;
     font-family: 'Poppins';
     overflow-x: hidden;
+} 
+
+.mainBanner{
+    background-image: url('Item1.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
 }

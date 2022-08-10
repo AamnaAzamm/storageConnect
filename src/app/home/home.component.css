@@ -62,12 +62,7 @@
     color: black;
     border-bottom-right-radius: 250px;
 }
-.mainBanner{
-    background-image: url("/../../assets/backgrounds/Item1.png");
-    background-size: cover;
-    background-position: center;
-    color: white;
-}
+
 .absoluteTop{
     position: relative;
     top: 0;
