@@ -6,7 +6,7 @@
             "units": "89",
             "occupancy": "63",
             "size": "40233",
-            "image": "/../../../../assets/storages/image1.png"
+            "image": "assets/storages/image1.png"
         },
         {
             "title": "Heading of this Self Storage",
@@ -14,7 +14,7 @@
             "units": "103",
             "occupancy": "76",
             "size": "40233",
-            "image": "/../../../../assets/storages/image2.png"
+            "image": "assets/storages/image2.png"
         },        
         {
             "title": "Heading",
@@ -22,7 +22,7 @@
             "units": "16",
             "occupancy": "88",
             "size": "40233",
-            "image": "/../../../../assets/storages/image3.png"
+            "image": "assets/storages/image3.png"
         },        
         {
             "title": "Self Storage",
@@ -30,7 +30,7 @@
             "units": "34",
             "occupancy": "67",
             "size": "40233",
-            "image": "/../../../../assets/storages/image4.png"
+            "image": "assets/storages/image4.png"
         },
         {
             "title": "This Self Storage",
@@ -38,7 +38,7 @@
             "units": "58",
             "occupancy": "71",
             "size": "40233",
-            "image": "/../../../../assets/storages/image5.png"
+            "image": "assets/storages/image5.png"
         },        
         {
             "title": "Heading of this",
@@ -46,7 +46,7 @@
             "units": "43",
             "occupancy": "52",
             "size": "40233",
-            "image": "/../../../../assets/storages/image6.png"
+            "image": "assets/storages/image6.png"
         },        
         {
             "title": "Heading of this Self Storage",
@@ -54,7 +54,7 @@
             "units": "112",
             "occupancy": "50",
             "size": "40233",
-            "image": "/../../../../assets/storages/image7.png"
+            "image": "assets/storages/image7.png"
         },
         {
             "title": "Heading",
@@ -62,7 +62,7 @@
             "units": "72",
             "occupancy": "13",
             "size": "40233",
-            "image": "/../../../../assets/storages/image8.png"
+            "image": "assets/storages/image8.png"
         }
     ]
 }
