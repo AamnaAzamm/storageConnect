@@ -298,7 +298,7 @@
         selectors: [["app-home"]],
         decls: 60,
         vars: 3,
-        consts: [[1, "homePage"], [1, "banner", "mainBanner", 2, "padding", "175px 0px 100px"], [1, "heading", 2, "margin-top", "20px"], [1, "heading", 2, "margin-top", "-20px"], [1, "description"], [1, "buttonRow"], [1, "button", "yellow-button"], [1, "button", "white-button"], [1, "banner"], [1, "headingSmall"], [1, "widgetsBlock"], [4, "ngFor", "ngForOf"], [1, "banner", "blueBanner"], [1, "banner", "lightBlueBanner", "twoCols"], ["src", "/../../assets/people/lady.png", 1, "droppedImage"], [1, "button", "blue-button"], [1, "banner", "twoCols"], [1, "banner", "blueBanner", 2, "border-top-left-radius", "250px"], [1, "widgetsBlockSize4"], [3, "storageObject"]],
+        consts: [[1, "homePage"], [1, "banner", "mainBanner", 2, "padding", "175px 0px 100px"], [1, "heading", 2, "margin-top", "20px"], [1, "heading", 2, "margin-top", "-20px"], [1, "description"], [1, "buttonRow"], [1, "button", "yellow-button"], [1, "button", "white-button"], [1, "banner"], [1, "headingSmall"], [1, "widgetsBlock"], [4, "ngFor", "ngForOf"], [1, "banner", "blueBanner"], [1, "banner", "lightBlueBanner", "twoCols"], ["src", "assets/people/lady.png", 1, "droppedImage"], [1, "button", "blue-button"], [1, "banner", "twoCols"], [1, "banner", "blueBanner", 2, "border-top-left-radius", "250px"], [1, "widgetsBlockSize4"], [3, "storageObject"]],
         template: function HomeComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
@@ -613,7 +613,7 @@
         selectors: [["app-footer"]],
         decls: 38,
         vars: 0,
-        consts: [[1, "footer-row"], [1, "block", "largeBlock"], [1, "footerHeading"], [1, "block"], [1, "boldCaps"], [1, "button", "blue-button"], [1, "block", 2, "justify-content", "flex-start"], [1, "socialGroup"], [1, "icon"], ["src", "../../../assets/socials/facebook.svg", "alt", "icon"], ["src", "../../../assets/socials/linkedIn.svg", "alt", "icon"], ["src", "../../../assets/socials/twitter.svg", "alt", "icon"], ["src", "../../../assets/socials/insta.svg", "alt", "icon"]],
+        consts: [[1, "footer-row"], [1, "block", "largeBlock"], [1, "footerHeading"], [1, "block"], [1, "boldCaps"], [1, "button", "blue-button"], [1, "block", 2, "justify-content", "flex-start"], [1, "socialGroup"], [1, "icon"], ["src", "assets/socials/facebook.svg", "alt", "icon"], ["src", "assets/socials/linkedIn.svg", "alt", "icon"], ["src", "assets/socials/twitter.svg", "alt", "icon"], ["src", "assets/socials/insta.svg", "alt", "icon"]],
         template: function FooterComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
@@ -946,7 +946,7 @@
 
     /***/
     function hCC4(module) {
-      module.exports = JSON.parse("{\"storages\":[{\"title\":\"\",\"location\":\"Jersey City, NJ\",\"units\":\"89\",\"occupancy\":\"63\",\"size\":\"40233\",\"image\":\"/../../../../assets/storages/image1.png\"},{\"title\":\"Heading of this Self Storage\",\"location\":\"Jersey City, NJ\",\"units\":\"103\",\"occupancy\":\"76\",\"size\":\"40233\",\"image\":\"/../../../../assets/storages/image2.png\"},{\"title\":\"Heading\",\"location\":\"Jersey City, NJ\",\"units\":\"16\",\"occupancy\":\"88\",\"size\":\"40233\",\"image\":\"/../../../../assets/storages/image3.png\"},{\"title\":\"Self Storage\",\"location\":\"Jersey City, NJ\",\"units\":\"34\",\"occupancy\":\"67\",\"size\":\"40233\",\"image\":\"/../../../../assets/storages/image4.png\"},{\"title\":\"This Self Storage\",\"location\":\"Jersey City, NJ\",\"units\":\"58\",\"occupancy\":\"71\",\"size\":\"40233\",\"image\":\"/../../../../assets/storages/image5.png\"},{\"title\":\"Heading of this\",\"location\":\"Jersey City, NJ\",\"units\":\"43\",\"occupancy\":\"52\",\"size\":\"40233\",\"image\":\"/../../../../assets/storages/image6.png\"},{\"title\":\"Heading of this Self Storage\",\"location\":\"Jersey City, NJ\",\"units\":\"112\",\"occupancy\":\"50\",\"size\":\"40233\",\"image\":\"/../../../../assets/storages/image7.png\"},{\"title\":\"Heading\",\"location\":\"Jersey City, NJ\",\"units\":\"72\",\"occupancy\":\"13\",\"size\":\"40233\",\"image\":\"/../../../../assets/storages/image8.png\"}]}");
+      module.exports = JSON.parse("{\"storages\":[{\"title\":\"\",\"location\":\"Jersey City, NJ\",\"units\":\"89\",\"occupancy\":\"63\",\"size\":\"40233\",\"image\":\"assets/storages/image1.png\"},{\"title\":\"Heading of this Self Storage\",\"location\":\"Jersey City, NJ\",\"units\":\"103\",\"occupancy\":\"76\",\"size\":\"40233\",\"image\":\"assets/storages/image2.png\"},{\"title\":\"Heading\",\"location\":\"Jersey City, NJ\",\"units\":\"16\",\"occupancy\":\"88\",\"size\":\"40233\",\"image\":\"assets/storages/image3.png\"},{\"title\":\"Self Storage\",\"location\":\"Jersey City, NJ\",\"units\":\"34\",\"occupancy\":\"67\",\"size\":\"40233\",\"image\":\"assets/storages/image4.png\"},{\"title\":\"This Self Storage\",\"location\":\"Jersey City, NJ\",\"units\":\"58\",\"occupancy\":\"71\",\"size\":\"40233\",\"image\":\"assets/storages/image5.png\"},{\"title\":\"Heading of this\",\"location\":\"Jersey City, NJ\",\"units\":\"43\",\"occupancy\":\"52\",\"size\":\"40233\",\"image\":\"assets/storages/image6.png\"},{\"title\":\"Heading of this Self Storage\",\"location\":\"Jersey City, NJ\",\"units\":\"112\",\"occupancy\":\"50\",\"size\":\"40233\",\"image\":\"assets/storages/image7.png\"},{\"title\":\"Heading\",\"location\":\"Jersey City, NJ\",\"units\":\"72\",\"occupancy\":\"13\",\"size\":\"40233\",\"image\":\"assets/storages/image8.png\"}]}");
       /***/
     },
 
@@ -1095,7 +1095,7 @@
         },
         decls: 29,
         vars: 7,
-        consts: [[1, "widgetBg"], [3, "src"], ["class", "widgetHeading", 4, "ngIf"], ["class", "iconDesc", 3, "ngClass", 4, "ngIf"], [1, "widgetDetails"], ["class", "iconDesc", 4, "ngIf"], [1, "iconDesc"], [1, "icon"], ["src", "../../../assets/icons/units.svg", "alt", "icon"], ["src", "../../../assets/icons/size.svg", "alt", "icon"], ["src", "../../../assets/icons/occupancy.svg", "alt", "icon"], [1, "button", "blue-button"], [1, "widgetHeading"], [1, "iconDesc", 3, "ngClass"], ["src", "../../../assets/icons/location.svg", "alt", "icon"]],
+        consts: [[1, "widgetBg"], [3, "src"], ["class", "widgetHeading", 4, "ngIf"], ["class", "iconDesc", 3, "ngClass", 4, "ngIf"], [1, "widgetDetails"], ["class", "iconDesc", 4, "ngIf"], [1, "iconDesc"], [1, "icon"], ["src", "assets/icons/units.svg", "alt", "icon"], ["src", "assets/icons/size.svg", "alt", "icon"], ["src", "assets/icons/occupancy.svg", "alt", "icon"], [1, "button", "blue-button"], [1, "widgetHeading"], [1, "iconDesc", 3, "ngClass"], ["src", "assets/icons/location.svg", "alt", "icon"]],
         template: function StorageDescriptionWidgetComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
